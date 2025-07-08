@@ -1,8 +1,8 @@
-import { fetchList } from '../content.js';
-import { getThumbnailFromId, getYoutubeIdFromUrl, shuffle } from '../util.js';
+import { fetchList } from 'https://fgdps.pages.dev/list/js/content.js';
+import { getThumbnailFromId, getYoutubeIdFromUrl, shuffle } from 'https://fgdps.pages.dev/list/js/util.js';
 
-import Spinner from '../components/Spinner.js';
-import Btn from '../components/Btn.js';
+import Spinner from 'https://fgdps.pages.dev/list/js/components/Spinner.js';
+import Btn from 'https://fgdps.pages.dev/list/js/components/Btn.js';
 
 export default {
     components: { Spinner, Btn },
@@ -13,7 +13,7 @@ export default {
         <main v-else class="page-roulette">
             <div class="sidebar">
                 <p class="type-label-md" style="color: #aaa">
-                    Shameless copy of the Extreme Demon Roulette by <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
+                    Shameless kopy of the Extreme Demon Roulette by <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
                 </p>
                 <form class="options">
                     <div class="check">
