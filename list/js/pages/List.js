@@ -1,10 +1,10 @@
-import { store } from "../main.js";
-import { embed } from "../util.js";
-import { score } from "../score.js";
-import { fetchEditors, fetchList } from "../content.js";
+import { store } from "https://fgdps.pages.dev/list/js/main.js";
+import { embed } from "https://fgdps.pages.dev/list/js/util.js";
+import { score } from "https://fgdps.pages.dev/list/js/score.js";
+import { fetchEditors, fetchList } from "https://fgdps.pages.dev/list/js/content.js";
 
-import Spinner from "../components/Spinner.js";
-import LevelAuthors from "../components/List/LevelAuthors.js";
+import Spinner from "https://fgdps.pages.dev/list/js/components/Spinner.js";
+import LevelAuthors from "https://fgdps.pages.dev/list/js/components/List/LevelAuthors.js";
 
 const roleIconMap = {
     owner: "crown",
