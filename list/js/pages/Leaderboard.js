@@ -1,7 +1,7 @@
 import { fetchLeaderboard } from '../content.js';
-import { localize } from '../util.js';
+import { localize } from 'https://fgdps.pages.dev/list/js/pages/util.js';
 
-import Spinner from '../components/Spinner.js';
+import Spinner from 'https://fgdps.pages.dev/list/js/components/Spinner.js';
 
 export default {
     components: {
