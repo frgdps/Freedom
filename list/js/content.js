@@ -3,7 +3,7 @@ import { round, score } from 'https://fgdps.pages.dev/list/js/score.js';
 /**
  * Path to directory containing `_list.json` and all levels
  */
-const dir = '/data';
+const dir = '/list/data';
 
 export async function fetchMapPacks() {
     try {
